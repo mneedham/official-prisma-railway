@@ -7,8 +7,8 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "postinstall": "node scripts/create-db.mjs",
-    "setup": "node scripts/create-db.mjs --force",
+    "postinstall": "node scripts/create-chc.mjs",
+    "setup": "node scripts/create-chc.mjs --force",
     "setup:clickhouse": "node scripts/create-chc.mjs",
     "setup:clickhouse:force": "node scripts/create-chc.mjs --force"
   },
